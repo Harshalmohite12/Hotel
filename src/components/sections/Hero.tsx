@@ -58,7 +58,7 @@ export default function Hero() {
       ref={containerRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="relative w-full min-h-screen bg-bgDark flex items-center overflow-hidden py-24 md:py-0"
+      className="relative w-full min-h-screen bg-bgDark flex items-center overflow-hidden pt-28 pb-16 md:pt-36 md:pb-24"
     >
       {/* Background Video */}
       <div className="absolute inset-0 z-0 overflow-hidden">
